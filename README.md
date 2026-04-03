@@ -1,7 +1,7 @@
 <div align="center">
 
 # Kingsley Aremu
-Software Engineer building frontend and mobile products for real-world constraints.
+Software Engineer building frontend and mobile products for real-world constraints, with growing depth in ML and deep learning.
 
 React • React Native • JavaScript • UI Systems • Product Thinking
 
@@ -15,7 +15,8 @@ React • React Native • JavaScript • UI Systems • Product Thinking
 - [Pulse](https://github.com/iice257/Pulse) — mobile-first experience focused on speed, responsiveness, and reliability
 
 ## Now
-- Strengthening ML foundations
+- Building stronger ML foundations
+- Studying deep learning with a focus on practical implementation and core concepts
 - Expanding backend and system design depth
 - Open to software engineering roles
 
