@@ -14,34 +14,7 @@
       <stop offset="0.44" stop-color="#050505"/>
       <stop offset="1" stop-color="#000000"/>
     </radialGradient>
-    <radialGradient id="spotA" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
-      <stop offset="0.35" stop-color="#ffffff" stop-opacity="0.46"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="spotBlue" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#7cf8ef" stop-opacity="0.95"/>
-      <stop offset="0.55" stop-color="#7cf8ef" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#7cf8ef" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="spotGold" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#d8c747" stop-opacity="0.9"/>
-      <stop offset="0.55" stop-color="#d8c747" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#d8c747" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="softGlow" x="-90%" y="-90%" width="280%" height="280%">
-      <feGaussianBlur stdDeviation="2.2"/>
-    </filter>
     <style>
-      @keyframes twinkle {
-        0%, 100% { opacity: .22; transform: scale(.78); }
-        48% { opacity: .95; transform: scale(1.18); }
-      }
-      @keyframes drift {
-        0% { transform: translateY(-18px); opacity: 0; }
-        16% { opacity: .42; }
-        100% { transform: translateY(64px); opacity: 0; }
-      }
       .bg { fill: url(#bgGlow); }
       .nav { font: 800 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f4f4f4; letter-spacing: 4px; }
       .heroTop { font: 900 188px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f5f5f5; letter-spacing: 10px; }
@@ -63,36 +36,36 @@
       .pill { fill: rgba(255,255,255,.035); stroke: #4f4f4f; stroke-width: 1; }
       .icon { stroke: #f2f2f2; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
       .accent { stroke: #9ef5e9; }
-      .star { transform-box: fill-box; transform-origin: center; animation: twinkle 5.8s ease-in-out infinite; }
-      .snow { animation: drift 7s linear infinite; }
+      .starWhite { fill: #ffffff; opacity: .34; }
+      .starBlue { fill: #7cf8ef; opacity: .42; }
+      .starGold { fill: #d8c747; opacity: .38; }
+      .dust { fill: #ffffff; opacity: .16; }
     </style>
   </defs>
 
   <rect class="bg" width="1286" height="1238"/>
 
-  <g opacity=".55">
-    <circle class="star" cx="188" cy="39" r="2.2" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-1.4s"/>
-    <circle class="star" cx="272" cy="58" r="3.4" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-3.2s"/>
-    <circle class="star" cx="512" cy="79" r="1.7" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-4.1s"/>
-    <circle class="star" cx="738" cy="54" r="2.5" fill="url(#spotBlue)" filter="url(#softGlow)" style="animation-delay:-2.3s"/>
-    <circle class="star" cx="996" cy="87" r="2" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-5.2s"/>
-    <circle class="star" cx="143" cy="115" r="2.2" fill="url(#spotGold)" filter="url(#softGlow)" style="animation-delay:-1.8s"/>
-    <circle class="star" cx="1241" cy="320" r="3" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-4.8s"/>
-    <circle class="star" cx="227" cy="354" r="3.2" fill="url(#spotGold)" filter="url(#softGlow)" style="animation-delay:-.6s"/>
-    <circle class="star" cx="1192" cy="531" r="2.3" fill="url(#spotBlue)" filter="url(#softGlow)" style="animation-delay:-3.6s"/>
-    <circle class="star" cx="68" cy="668" r="2" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-2.1s"/>
-    <circle class="star" cx="1128" cy="694" r="1.9" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-5.5s"/>
-    <circle class="star" cx="601" cy="812" r="1.8" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-.9s"/>
-    <circle class="star" cx="591" cy="998" r="2.4" fill="url(#spotGold)" filter="url(#softGlow)" style="animation-delay:-3.1s"/>
-    <circle class="star" cx="1218" cy="937" r="1.7" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-4.6s"/>
-  </g>
-  <g opacity=".42">
-    <circle class="snow" cx="91" cy="192" r="1.2" fill="#ffffff" style="animation-delay:-2s"/>
-    <circle class="snow" cx="372" cy="221" r="1.1" fill="#ffffff" style="animation-delay:-4s"/>
-    <circle class="snow" cx="646" cy="149" r="1.2" fill="#ffffff" style="animation-delay:-5.6s"/>
-    <circle class="snow" cx="1071" cy="240" r="1.15" fill="#ffffff" style="animation-delay:-3.1s"/>
-    <circle class="snow" cx="127" cy="733" r="1" fill="#ffffff" style="animation-delay:-1.3s"/>
-    <circle class="snow" cx="1004" cy="742" r="1.25" fill="#ffffff" style="animation-delay:-6s"/>
+  <g>
+    <circle class="starWhite" cx="188" cy="39" r="1.4"/>
+    <circle class="starWhite" cx="272" cy="58" r="2"/>
+    <circle class="dust" cx="512" cy="79" r="1.1"/>
+    <circle class="starBlue" cx="738" cy="54" r="1.4"/>
+    <circle class="dust" cx="996" cy="87" r="1.2"/>
+    <circle class="starGold" cx="143" cy="115" r="1.35"/>
+    <circle class="starWhite" cx="1241" cy="320" r="1.7"/>
+    <circle class="starGold" cx="227" cy="354" r="1.8"/>
+    <circle class="starBlue" cx="1192" cy="531" r="1.45"/>
+    <circle class="dust" cx="68" cy="668" r="1.1"/>
+    <circle class="dust" cx="1128" cy="694" r="1.1"/>
+    <circle class="dust" cx="601" cy="812" r="1"/>
+    <circle class="starGold" cx="591" cy="998" r="1.4"/>
+    <circle class="dust" cx="1218" cy="937" r="1"/>
+    <circle class="dust" cx="91" cy="192" r="1"/>
+    <circle class="dust" cx="372" cy="221" r="1"/>
+    <circle class="dust" cx="646" cy="149" r="1"/>
+    <circle class="dust" cx="1071" cy="240" r="1"/>
+    <circle class="dust" cx="127" cy="733" r="1"/>
+    <circle class="dust" cx="1004" cy="742" r="1"/>
   </g>
 
   <text class="nav" x="65" y="52">KA</text>
