@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="840" viewBox="0 0 900 840" role="img" aria-labelledby="title desc">
+  <title id="title">Kingsley Aremu GitHub profile README</title>
+  <desc id="desc">A polished GitHub profile README for Kingsley Aremu using verified projects, links, and skills from iice257 repositories.</desc>
+  <defs>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#1f2937" flood-opacity="0.08"/>
+    </filter>
+    <linearGradient id="blueGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="violetGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font: 800 48px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #0d1117; }
+      .subtitle { font: 500 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #0969da; }
+      .section { font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #374151; letter-spacing: .03em; }
+      .body { font: 400 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #374151; }
+      .small { font: 400 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #4b5563; }
+      .project { font: 700 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #111827; }
+      .link { fill: #0969da; }
+      .line { stroke: #d0d7de; stroke-width: 1; }
+      .card { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; filter: url(#softShadow); }
+      .pill { fill: #f1f5f9; }
+      .pillText { font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
+      .iconStroke { stroke: #374151; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .blueStroke { stroke: #0969da; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .mutedIcon { fill: #374151; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="900" height="840"/>
+
+  <text class="title" x="22" y="58">Kingsley Aremu</text>
+  <rect x="354" y="21" width="3" height="45" rx="1.5" fill="#0969da"/>
+  <text class="subtitle" x="24" y="88">Software Engineer building frontend and mobile products for real-world constraints.</text>
+
+  <g transform="translate(24 126)">
+    <path class="mutedIcon" d="M8 1.5C4.7 1.5 2 4.1 2 7.4c0 4.4 6 10.8 6 10.8s6-6.4 6-10.8c0-3.3-2.7-5.9-6-5.9zm0 8.1A2.2 2.2 0 1 1 8 5.2a2.2 2.2 0 0 1 0 4.4z"/>
+    <text class="small" x="24" y="13">Frontend, mobile, AI products</text>
+  </g>
+  <g transform="translate(245 126)">
+    <path class="blueStroke" d="M7.5 10.5 5 13a4 4 0 0 1-5.6-5.6L2 4.8M8.5 7.5 11 5a4 4 0 0 1 5.6 5.6L14 13.2M5.5 10.5l5-5"/>
+    <text class="small link" x="25" y="13">kingsleyaremu.vercel.app</text>
+  </g>
+  <g transform="translate(500 126)">
+    <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#111827">X</text>
+    <text class="small link" x="27" y="13">@Ice257_</text>
+  </g>
+  <g transform="translate(646 112)">
+    <rect x="0" y="0" width="122" height="28" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
+    <circle cx="18" cy="14" r="4" fill="#22c55e"/>
+    <text class="small" x="31" y="18" fill="#111827">Open to roles</text>
+  </g>
+
+  <line class="line" x1="24" y1="165" x2="876" y2="165"/>
+
+  <g transform="translate(24 198)">
+    <path class="iconStroke" d="M5 2h10l3 3v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM14 2v5h5M7 12h8M7 16h5"/>
+    <text class="section" x="28" y="14">FEATURED PROJECTS</text>
+  </g>
+  <text class="small link" x="744" y="211">View more repositories</text>
+  <path class="blueStroke" d="M865 207h12M872 202l5 5-5 5"/>
+
+  <g transform="translate(24 234)">
+    <rect class="card" x="0" y="0" width="270" height="196" rx="8"/>
+    <rect x="18" y="19" width="45" height="45" rx="8" fill="url(#blueGradient)"/>
+    <path d="M29 43h5m4 0V31m5 12V26m5 17V34m5 9h5" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <text class="project" x="76" y="49">FormMate</text>
+    <text class="body" x="18" y="91">AI-assisted form companion</text>
+    <text class="body" x="18" y="113">for web forms, voice/text input</text>
+    <text class="body" x="18" y="135">and user-reviewed automation.</text>
+    <rect class="pill" x="18" y="158" width="51" height="25" rx="8"/><text class="pillText" x="29" y="175">React</text>
+    <rect class="pill" x="77" y="158" width="46" height="25" rx="8"/><text class="pillText" x="91" y="175">Vite</text>
+    <rect class="pill" x="131" y="158" width="69" height="25" rx="8"/><text class="pillText" x="143" y="175">Playwright</text>
+    <rect class="pill" x="208" y="158" width="44" height="25" rx="8"/><text class="pillText" x="220" y="175">AI</text>
+  </g>
+
+  <g transform="translate(315 234)">
+    <rect class="card" x="0" y="0" width="270" height="196" rx="8"/>
+    <rect x="18" y="19" width="45" height="45" rx="8" fill="#050505"/>
+    <text x="28" y="51" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="31" font-weight="800" fill="#ffffff">S</text>
+    <text class="project" x="76" y="49">SignalOps</text>
+    <text class="body" x="18" y="91">Agentic security and ops</text>
+    <text class="body" x="18" y="113">triage cockpit with evidence,</text>
+    <text class="body" x="18" y="135">risk ranking and approvals.</text>
+    <rect class="pill" x="18" y="158" width="51" height="25" rx="8"/><text class="pillText" x="29" y="175">React</text>
+    <rect class="pill" x="77" y="158" width="76" height="25" rx="8"/><text class="pillText" x="88" y="175">TypeScript</text>
+    <rect class="pill" x="161" y="158" width="46" height="25" rx="8"/><text class="pillText" x="175" y="175">Vite</text>
+    <rect class="pill" x="215" y="158" width="47" height="25" rx="8"/><text class="pillText" x="226" y="175">MCP</text>
+  </g>
+
+  <g transform="translate(606 234)">
+    <rect class="card" x="0" y="0" width="270" height="196" rx="8"/>
+    <rect x="18" y="19" width="45" height="45" rx="8" fill="url(#violetGradient)"/>
+    <rect x="29" y="35" width="23" height="19" rx="5" fill="#ffffff" opacity=".95"/>
+    <circle cx="36" cy="44" r="2.5" fill="#7c3aed"/>
+    <circle cx="45" cy="44" r="2.5" fill="#7c3aed"/>
+    <path d="M40.5 29v-6M35 23h11" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <text class="project" x="76" y="49">TikTok Lyric Pipeline</text>
+    <text class="body" x="18" y="91">Python media pipeline for</text>
+    <text class="body" x="18" y="113">timed lyrics, clip scoring,</text>
+    <text class="body" x="18" y="135">rendering and scheduling.</text>
+    <rect class="pill" x="18" y="158" width="56" height="25" rx="8"/><text class="pillText" x="30" y="175">Python</text>
+    <rect class="pill" x="82" y="158" width="58" height="25" rx="8"/><text class="pillText" x="93" y="175">FastAPI</text>
+    <rect class="pill" x="148" y="158" width="76" height="25" rx="8"/><text class="pillText" x="159" y="175">Postgres</text>
+  </g>
+
+  <line class="line" x1="24" y1="452" x2="876" y2="452"/>
+
+  <g transform="translate(24 486)">
+    <path class="iconStroke" d="M10 2 2 6l8 4 8-4-8-4zM2 11l8 4 8-4M2 16l8 4 8-4"/>
+    <text class="section" x="28" y="14">TECH STACK</text>
+  </g>
+
+  <text class="small" x="24" y="528">Languages</text>
+  <g transform="translate(122 509)">
+    <rect class="pill" x="0" y="0" width="92" height="25" rx="12"/><text class="pillText" x="18" y="17">JavaScript</text>
+    <rect class="pill" x="104" y="0" width="94" height="25" rx="12"/><text class="pillText" x="122" y="17">TypeScript</text>
+    <rect class="pill" x="210" y="0" width="67" height="25" rx="12"/><text class="pillText" x="230" y="17">Python</text>
+    <rect class="pill" x="289" y="0" width="56" height="25" rx="12"/><text class="pillText" x="306" y="17">HTML</text>
+    <rect class="pill" x="357" y="0" width="46" height="25" rx="12"/><text class="pillText" x="373" y="17">CSS</text>
+  </g>
+
+  <text class="small" x="24" y="562">Frontend</text>
+  <g transform="translate(122 543)">
+    <rect class="pill" x="0" y="0" width="67" height="25" rx="12"/><text class="pillText" x="18" y="17">React</text>
+    <rect class="pill" x="79" y="0" width="104" height="25" rx="12"/><text class="pillText" x="96" y="17">React Native</text>
+    <rect class="pill" x="195" y="0" width="46" height="25" rx="12"/><text class="pillText" x="209" y="17">Vite</text>
+    <rect class="pill" x="253" y="0" width="105" height="25" rx="12"/><text class="pillText" x="269" y="17">Tailwind CSS</text>
+    <rect class="pill" x="370" y="0" width="78" height="25" rx="12"/><text class="pillText" x="386" y="17">UI Systems</text>
+  </g>
+
+  <text class="small" x="24" y="596">Backend</text>
+  <g transform="translate(122 577)">
+    <rect class="pill" x="0" y="0" width="68" height="25" rx="12"/><text class="pillText" x="17" y="17">Node.js</text>
+    <rect class="pill" x="80" y="0" width="75" height="25" rx="12"/><text class="pillText" x="96" y="17">Express</text>
+    <rect class="pill" x="167" y="0" width="64" height="25" rx="12"/><text class="pillText" x="184" y="17">FastAPI</text>
+    <rect class="pill" x="243" y="0" width="88" height="25" rx="12"/><text class="pillText" x="257" y="17">SQLAlchemy</text>
+    <rect class="pill" x="343" y="0" width="76" height="25" rx="12"/><text class="pillText" x="356" y="17">Postgres</text>
+  </g>
+
+  <text class="small" x="24" y="630">Focus</text>
+  <g transform="translate(122 611)">
+    <rect class="pill" x="0" y="0" width="117" height="25" rx="12"/><text class="pillText" x="16" y="17">Product Thinking</text>
+    <rect class="pill" x="129" y="0" width="74" height="25" rx="12"/><text class="pillText" x="146" y="17">ML Study</text>
+    <rect class="pill" x="215" y="0" width="105" height="25" rx="12"/><text class="pillText" x="231" y="17">Deep Learning</text>
+    <rect class="pill" x="332" y="0" width="112" height="25" rx="12"/><text class="pillText" x="348" y="17">System Design</text>
+  </g>
+
+  <line class="line" x1="24" y1="659" x2="876" y2="659"/>
+
+  <g transform="translate(24 693)">
+    <circle cx="7" cy="6" r="4" class="iconStroke"/>
+    <circle cx="17" cy="6" r="4" class="iconStroke"/>
+    <path class="iconStroke" d="M1.5 19c.6-4 4-6 7.5-6M22.5 19c-.6-4-4-6-7.5-6"/>
+    <text class="section" x="28" y="14">LET'S CONNECT</text>
+  </g>
+  <g transform="translate(32 728)">
+    <circle cx="9" cy="-6" r="9" class="iconStroke"/>
+    <path class="iconStroke" d="M0 -6h18M9 -15c4 5 4 13 0 18M9 -15c-4 5-4 13 0 18"/>
+    <text class="body link" x="34" y="0">Portfolio</text>
+    <text x="232" y="0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#111827">X</text>
+    <text class="body link" x="262" y="0">Twitter / X</text>
+    <text class="body link" x="510" y="0">GitHub</text>
+    <rect x="704" y="-19" width="114" height="28" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
+    <circle cx="722" cy="-5" r="4" fill="#22c55e"/>
+    <text class="small" x="735" y="-1" fill="#111827">Open to roles</text>
+  </g>
+
+  <g transform="translate(24 748)">
+    <rect x="0" y="0" width="852" height="76" rx="8" fill="#f6f8fa"/>
+    <text x="20" y="42" font-family="Georgia, serif" font-size="32" font-weight="700" fill="#475569">&quot;</text>
+    <text class="body" x="58" y="35">Building useful interfaces, learning the systems underneath them.</text>
+    <text class="body" x="58" y="59">- Kingsley Aremu</text>
+  </g>
+</svg>
