@@ -1,17 +1,21 @@
 <p align="center">
   <a href="https://kingsleyaremu.vercel.app">
-    <img src="./assets/profile-readme.svg" alt="Kingsley Aremu - Software Engineer building frontend and mobile products for real-world constraints." width="100%" />
+    <img src="./assets/profile-readme.svg" alt="Kingsley Afolabi Aremu - Full-stack and creative engineer building polished web products, mobile experiences, AI agent tooling, and automation systems." width="100%" />
   </a>
 </p>
 
 <!--
 Profile links:
 - Portfolio: https://kingsleyaremu.vercel.app
-- Twitter / X: https://x.com/Ice257_
+- Email: mailto:kingsley.aremu@gmail.com
+- Twitter / X: https://x.com/iice257
 - GitHub: https://github.com/iice257
+- LinkedIn: https://linkedin.com/in/kingsley-aremu
 
 Featured projects:
-- FormMate: https://github.com/iice257/FormMate
+- FormMate AI: https://kingsleyaremu.vercel.app/projects/formmate-ai
+- PasteVault: https://kingsleyaremu.vercel.app/projects/pastevault
+- AI Agent Skills: https://kingsleyaremu.vercel.app/projects/ai-agent-skills
+- Restore AI: https://kingsleyaremu.vercel.app/projects/restore-ai
 - SignalOps: https://github.com/iice257/signalops
-- TikTok Lyric Video Pipeline: https://github.com/iice257/TikTok-Lyric-Video-Pipeline
 -->
