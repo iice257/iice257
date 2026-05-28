@@ -1,181 +1,226 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="840" viewBox="0 0 900 840" role="img" aria-labelledby="title desc">
-  <title id="title">Kingsley Aremu GitHub profile README</title>
-  <desc id="desc">A polished GitHub profile README for Kingsley Aremu using verified projects, links, and skills from iice257 repositories.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1286" height="1238" viewBox="0 0 1286 1238" role="img" aria-labelledby="title desc">
+  <title id="title">Kingsley Aremu portfolio-inspired GitHub profile</title>
+  <desc id="desc">Portfolio-inspired GitHub profile artwork for Kingsley Afolabi Aremu, iice257, a Lagos-based full-stack and creative engineer.</desc>
+  <metadata>
+    Portfolio: https://kingsleyaremu.vercel.app
+    Email: mailto:kingsley.aremu@gmail.com
+    GitHub: https://github.com/iice257
+    X: https://x.com/iice257
+    LinkedIn: https://linkedin.com/in/kingsley-aremu
+  </metadata>
   <defs>
-    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#1f2937" flood-opacity="0.08"/>
+    <radialGradient id="bgGlow" cx="50%" cy="7%" r="95%">
+      <stop offset="0" stop-color="#151515"/>
+      <stop offset="0.44" stop-color="#050505"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="spotA" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#ffffff" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spotBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7cf8ef" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#7cf8ef" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#7cf8ef" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spotGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d8c747" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#d8c747" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#d8c747" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-90%" y="-90%" width="280%" height="280%">
+      <feGaussianBlur stdDeviation="2.2"/>
     </filter>
-    <linearGradient id="blueGradient" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2563eb"/>
-      <stop offset="1" stop-color="#60a5fa"/>
-    </linearGradient>
-    <linearGradient id="violetGradient" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#4f46e5"/>
-      <stop offset="1" stop-color="#a855f7"/>
-    </linearGradient>
     <style>
-      .bg { fill: #ffffff; }
-      .title { font: 800 48px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #0d1117; }
-      .subtitle { font: 500 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #0969da; }
-      .section { font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #374151; letter-spacing: .03em; }
-      .body { font: 400 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #374151; }
-      .small { font: 400 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #4b5563; }
-      .project { font: 700 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #111827; }
-      .link { fill: #0969da; }
-      .line { stroke: #d0d7de; stroke-width: 1; }
-      .card { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; filter: url(#softShadow); }
-      .pill { fill: #f1f5f9; }
-      .pillText { font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
-      .iconStroke { stroke: #374151; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
-      .blueStroke { stroke: #0969da; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      @keyframes twinkle {
+        0%, 100% { opacity: .22; transform: scale(.78); }
+        48% { opacity: .95; transform: scale(1.18); }
+      }
+      @keyframes drift {
+        0% { transform: translateY(-18px); opacity: 0; }
+        16% { opacity: .42; }
+        100% { transform: translateY(64px); opacity: 0; }
+      }
+      .bg { fill: url(#bgGlow); }
+      .nav { font: 800 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f4f4f4; letter-spacing: 4px; }
+      .heroTop { font: 900 188px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f5f5f5; letter-spacing: 10px; }
+      .heroBottom { font: 100 168px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: none; stroke: #f3f3f3; stroke-width: 1.8; letter-spacing: 23px; }
+      .lede { font: 300 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #d9d9d9; }
+      .ledeStrong { font: 800 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #ffffff; }
+      .micro { font: 700 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #9b9b9b; letter-spacing: 8px; }
+      .microSmall { font: 700 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8e8e8e; letter-spacing: 7px; }
+      .projectTitle { font: 800 23px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f2f2f2; }
+      .body { font: 300 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #cfcfcf; }
+      .pillText { font: 400 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #eeeeee; }
+      .footer { font: 300 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #d6d6d6; }
+      .quote { font: italic 300 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #d7d7d7; }
+      .quoteMark { font: 900 31px Georgia, serif; fill: #9ef5e9; }
+      .line { stroke: #303030; stroke-width: 1; }
+      .hairline { stroke: #444444; stroke-width: 1; }
+      .button { fill: rgba(0,0,0,.24); stroke: #5d5d5d; stroke-width: 1; }
+      .card { fill: rgba(0,0,0,.18); stroke: #383838; stroke-width: 1; }
+      .pill { fill: rgba(255,255,255,.035); stroke: #4f4f4f; stroke-width: 1; }
+      .icon { stroke: #f2f2f2; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .accent { stroke: #9ef5e9; }
+      .star { transform-box: fill-box; transform-origin: center; animation: twinkle 5.8s ease-in-out infinite; }
+      .snow { animation: drift 7s linear infinite; }
     </style>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="900" height="840"/>
+  <rect class="bg" width="1286" height="1238"/>
 
-  <text class="title" x="22" y="58">Kingsley Aremu</text>
-  <rect x="354" y="21" width="3" height="45" rx="1.5" fill="#0969da"/>
-  <text class="subtitle" x="24" y="88">Software Engineer building frontend and mobile products for real-world constraints.</text>
-
-  <g transform="translate(24 126)">
-    <path class="iconStroke" d="M7 4 2 9l5 5M13 4l5 5-5 5"/>
-    <text class="small" x="24" y="13">Frontend, mobile, AI products</text>
+  <g opacity=".55">
+    <circle class="star" cx="188" cy="39" r="2.2" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-1.4s"/>
+    <circle class="star" cx="272" cy="58" r="3.4" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-3.2s"/>
+    <circle class="star" cx="512" cy="79" r="1.7" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-4.1s"/>
+    <circle class="star" cx="738" cy="54" r="2.5" fill="url(#spotBlue)" filter="url(#softGlow)" style="animation-delay:-2.3s"/>
+    <circle class="star" cx="996" cy="87" r="2" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-5.2s"/>
+    <circle class="star" cx="143" cy="115" r="2.2" fill="url(#spotGold)" filter="url(#softGlow)" style="animation-delay:-1.8s"/>
+    <circle class="star" cx="1241" cy="320" r="3" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-4.8s"/>
+    <circle class="star" cx="227" cy="354" r="3.2" fill="url(#spotGold)" filter="url(#softGlow)" style="animation-delay:-.6s"/>
+    <circle class="star" cx="1192" cy="531" r="2.3" fill="url(#spotBlue)" filter="url(#softGlow)" style="animation-delay:-3.6s"/>
+    <circle class="star" cx="68" cy="668" r="2" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-2.1s"/>
+    <circle class="star" cx="1128" cy="694" r="1.9" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-5.5s"/>
+    <circle class="star" cx="601" cy="812" r="1.8" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-.9s"/>
+    <circle class="star" cx="591" cy="998" r="2.4" fill="url(#spotGold)" filter="url(#softGlow)" style="animation-delay:-3.1s"/>
+    <circle class="star" cx="1218" cy="937" r="1.7" fill="url(#spotA)" filter="url(#softGlow)" style="animation-delay:-4.6s"/>
   </g>
-  <g transform="translate(258 126)">
-    <path class="blueStroke" d="M7.5 10.5 5 13a4 4 0 0 1-5.6-5.6L2 4.8M8.5 7.5 11 5a4 4 0 0 1 5.6 5.6L14 13.2M5.5 10.5l5-5"/>
-    <text class="small link" x="25" y="13">kingsleyaremu.vercel.app</text>
-  </g>
-  <g transform="translate(524 126)">
-    <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#111827">X</text>
-    <text class="small link" x="27" y="13">@Ice257_</text>
-  </g>
-  <g transform="translate(662 112)">
-    <rect x="0" y="0" width="122" height="28" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
-    <circle cx="18" cy="14" r="4" fill="#22c55e"/>
-    <text class="small" x="31" y="18" fill="#111827">Open to roles</text>
-  </g>
-
-  <line class="line" x1="24" y1="165" x2="876" y2="165"/>
-
-  <g transform="translate(24 198)">
-    <path class="iconStroke" d="M5 2h10l3 3v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM14 2v5h5M7 12h8M7 16h5"/>
-    <text class="section" x="28" y="14">FEATURED PROJECTS</text>
-  </g>
-  <text class="small link" x="726" y="211">GitHub repositories</text>
-  <path class="blueStroke" d="M865 207h12M872 202l5 5-5 5"/>
-
-  <g transform="translate(24 234)">
-    <rect class="card" x="0" y="0" width="270" height="196" rx="8"/>
-    <rect x="18" y="19" width="45" height="45" rx="8" fill="url(#blueGradient)"/>
-    <path d="M29 43h5m4 0V31m5 12V26m5 17V34m5 9h5" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
-    <text class="project" x="76" y="49">FormMate</text>
-    <text class="body" x="18" y="91">AI-assisted form companion</text>
-    <text class="body" x="18" y="113">for web forms, voice/text input</text>
-    <text class="body" x="18" y="135">and user-reviewed automation.</text>
-    <rect class="pill" x="18" y="158" width="51" height="25" rx="8"/><text class="pillText" x="29" y="175">React</text>
-    <rect class="pill" x="77" y="158" width="46" height="25" rx="8"/><text class="pillText" x="91" y="175">Vite</text>
-    <rect class="pill" x="131" y="158" width="69" height="25" rx="8"/><text class="pillText" x="143" y="175">Playwright</text>
-    <rect class="pill" x="208" y="158" width="44" height="25" rx="8"/><text class="pillText" x="220" y="175">AI</text>
+  <g opacity=".42">
+    <circle class="snow" cx="91" cy="192" r="1.2" fill="#ffffff" style="animation-delay:-2s"/>
+    <circle class="snow" cx="372" cy="221" r="1.1" fill="#ffffff" style="animation-delay:-4s"/>
+    <circle class="snow" cx="646" cy="149" r="1.2" fill="#ffffff" style="animation-delay:-5.6s"/>
+    <circle class="snow" cx="1071" cy="240" r="1.15" fill="#ffffff" style="animation-delay:-3.1s"/>
+    <circle class="snow" cx="127" cy="733" r="1" fill="#ffffff" style="animation-delay:-1.3s"/>
+    <circle class="snow" cx="1004" cy="742" r="1.25" fill="#ffffff" style="animation-delay:-6s"/>
   </g>
 
-  <g transform="translate(315 234)">
-    <rect class="card" x="0" y="0" width="270" height="196" rx="8"/>
-    <rect x="18" y="19" width="45" height="45" rx="8" fill="#050505"/>
-    <text x="28" y="51" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="31" font-weight="800" fill="#ffffff">S</text>
-    <text class="project" x="76" y="49">SignalOps</text>
-    <text class="body" x="18" y="91">Agentic security and ops</text>
-    <text class="body" x="18" y="113">triage cockpit with evidence,</text>
-    <text class="body" x="18" y="135">risk ranking and approvals.</text>
-    <rect class="pill" x="18" y="158" width="51" height="25" rx="8"/><text class="pillText" x="29" y="175">React</text>
-    <rect class="pill" x="77" y="158" width="76" height="25" rx="8"/><text class="pillText" x="88" y="175">TypeScript</text>
-    <rect class="pill" x="161" y="158" width="46" height="25" rx="8"/><text class="pillText" x="175" y="175">Vite</text>
-    <rect class="pill" x="215" y="158" width="47" height="25" rx="8"/><text class="pillText" x="225" y="175">MCP</text>
+  <text class="nav" x="65" y="52">KA</text>
+  <g transform="translate(1095 28)">
+    <rect class="button" x="0" y="0" width="37" height="37"/>
+    <path class="icon" d="M18.5 10v3.2M18.5 23.8V27M10 18.5h3.2M23.8 18.5H27M12.5 12.5l2.2 2.2M22.3 22.3l2.2 2.2M24.5 12.5l-2.2 2.2M14.7 22.3l-2.2 2.2"/>
+    <circle class="icon" cx="18.5" cy="18.5" r="3.6"/>
+  </g>
+  <g transform="translate(1160 32)">
+    <circle class="icon" cx="18" cy="15" r="5.6"/>
+    <path class="icon" d="M18 3v4M18 23v4M6 15h4M26 15h4M9.5 6.5l2.8 2.8M23.7 20.7l2.8 2.8M26.5 6.5l-2.8 2.8M12.3 20.7l-2.8 2.8"/>
+  </g>
+  <g transform="translate(1217 38)">
+    <path class="icon" d="M0 0h25M0 9h25M0 18h25"/>
   </g>
 
-  <g transform="translate(606 234)">
-    <rect class="card" x="0" y="0" width="270" height="196" rx="8"/>
-    <rect x="18" y="19" width="45" height="45" rx="8" fill="url(#violetGradient)"/>
-    <rect x="29" y="35" width="23" height="19" rx="5" fill="#ffffff" opacity=".95"/>
-    <circle cx="36" cy="44" r="2.5" fill="#7c3aed"/>
-    <circle cx="45" cy="44" r="2.5" fill="#7c3aed"/>
-    <path d="M40.5 29v-6M35 23h11" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
-    <text class="project" x="76" y="49">TikTok Lyric Pipeline</text>
-    <text class="body" x="18" y="91">Python media pipeline for</text>
-    <text class="body" x="18" y="113">timed lyrics, clip scoring,</text>
-    <text class="body" x="18" y="135">rendering and scheduling.</text>
-    <rect class="pill" x="18" y="158" width="56" height="25" rx="8"/><text class="pillText" x="30" y="175">Python</text>
-    <rect class="pill" x="82" y="158" width="58" height="25" rx="8"/><text class="pillText" x="93" y="175">FastAPI</text>
-    <rect class="pill" x="148" y="158" width="76" height="25" rx="8"/><text class="pillText" x="159" y="175">Postgres</text>
+  <text class="heroTop" x="193" y="291">KINGSLEY</text>
+  <text class="heroBottom" x="328" y="455">AREMU</text>
+
+  <text class="lede" x="428" y="508">Full-Stack Engineer crafting</text>
+  <text class="ledeStrong" x="706" y="508">AI-powered tools</text>
+  <text class="lede" x="401" y="542">with precision, performance, and intentional design.</text>
+  <text class="microSmall" x="492" y="594">BUILDING IN PUBLIC . LAGOS, NIGERIA</text>
+
+  <g transform="translate(65 640)">
+    <text class="micro" x="0" y="10">SELECTED WORK</text>
+    <line class="hairline" x1="180" y1="5" x2="555" y2="5"/>
+
+    <g transform="translate(0 42)">
+      <rect class="card" x="0" y="0" width="99" height="93" rx="17"/>
+      <path class="icon" d="M31 23h38v50H31zM42 34h16M42 46h16M42 58h9"/>
+      <path class="accent icon" d="M65 58l6 13 6-13 13-6-13-6-6-13-6 13-13 6z" stroke-width="1.7"/>
+      <text class="projectTitle" x="148" y="22">FormMate AI</text>
+      <text class="body" x="148" y="48">AI-assisted form companion for voice/text</text>
+      <text class="body" x="148" y="70">input and user-reviewed automation.</text>
+      <rect class="pill" x="148" y="83" width="70" height="34" rx="8"/><text class="pillText" x="164" y="105">React</text>
+      <rect class="pill" x="229" y="83" width="60" height="34" rx="8"/><text class="pillText" x="246" y="105">Vite</text>
+      <rect class="pill" x="301" y="83" width="103" height="34" rx="8"/><text class="pillText" x="316" y="105">Playwright</text>
+      <rect class="pill" x="415" y="83" width="49" height="34" rx="8"/><text class="pillText" x="432" y="105">AI</text>
+    </g>
+
+    <line class="line" x1="0" y1="162" x2="555" y2="162"/>
+
+    <g transform="translate(0 180)">
+      <rect class="card" x="0" y="0" width="99" height="93" rx="17"/>
+      <path class="icon" d="M30 31c14-2 22-8 28-15 6 7 14 13 28 15v21c0 17-12 29-28 35-16-6-28-18-28-35z"/>
+      <path class="accent icon" d="M45 52l9 9 19-22"/>
+      <text class="projectTitle" x="148" y="22">PasteVault</text>
+      <text class="body" x="148" y="48">Private installable clipboard for text, code,</text>
+      <text class="body" x="148" y="70">links, JSON, search, and sharing.</text>
+      <rect class="pill" x="148" y="83" width="102" height="34" rx="8"/><text class="pillText" x="164" y="105">JavaScript</text>
+      <rect class="pill" x="263" y="83" width="58" height="34" rx="8"/><text class="pillText" x="281" y="105">PWA</text>
+      <rect class="pill" x="333" y="83" width="113" height="34" rx="8"/><text class="pillText" x="349" y="105">Productivity</text>
+    </g>
+
+    <line class="line" x1="0" y1="300" x2="555" y2="300"/>
+
+    <g transform="translate(0 318)">
+      <rect class="card" x="0" y="0" width="99" height="93" rx="17"/>
+      <path class="icon" d="M29 64c8-17 23-28 40-32M34 35c13 2 24 13 27 29M68 29v42"/>
+      <path class="accent icon" d="M75 57v17M84 51v23M93 62v12"/>
+      <text class="projectTitle" x="148" y="22">AI Agent Skills</text>
+      <text class="body" x="148" y="48">Reusable AI-agent skills for research,</text>
+      <text class="body" x="148" y="70">planning, parsing, publishing, and builds.</text>
+      <rect class="pill" x="148" y="83" width="76" height="34" rx="8"/><text class="pillText" x="164" y="105">Python</text>
+      <rect class="pill" x="235" y="83" width="71" height="34" rx="8"/><text class="pillText" x="252" y="105">Codex</text>
+      <rect class="pill" x="318" y="83" width="76" height="34" rx="8"/><text class="pillText" x="334" y="105">Agents</text>
+    </g>
   </g>
 
-  <line class="line" x1="24" y1="452" x2="876" y2="452"/>
+  <line class="hairline" x1="651" y1="639" x2="651" y2="1083"/>
 
-  <g transform="translate(24 486)">
-    <path class="iconStroke" d="M10 2 2 6l8 4 8-4-8-4zM2 11l8 4 8-4M2 16l8 4 8-4"/>
-    <text class="section" x="28" y="14">TECH STACK</text>
+  <g transform="translate(682 640)">
+    <text class="micro" x="0" y="10">STACK</text>
+    <line class="hairline" x1="77" y1="5" x2="557" y2="5"/>
+
+    <text class="microSmall" x="0" y="58">LANGUAGES</text>
+    <g transform="translate(0 74)">
+      <rect class="pill" x="0" y="0" width="111" height="38" rx="8"/><text class="pillText" x="18" y="25">JavaScript</text>
+      <rect class="pill" x="121" y="0" width="113" height="38" rx="8"/><text class="pillText" x="136" y="25">TypeScript</text>
+      <rect class="pill" x="244" y="0" width="82" height="38" rx="8"/><text class="pillText" x="262" y="25">Python</text>
+      <rect class="pill" x="336" y="0" width="76" height="38" rx="8"/><text class="pillText" x="354" y="25">HTML</text>
+      <rect class="pill" x="424" y="0" width="64" height="38" rx="8"/><text class="pillText" x="443" y="25">CSS</text>
+    </g>
+
+    <line class="line" x1="0" y1="129" x2="557" y2="129"/>
+    <text class="microSmall" x="0" y="169">FRONTEND</text>
+    <g transform="translate(0 185)">
+      <rect class="pill" x="0" y="0" width="76" height="38" rx="8"/><text class="pillText" x="18" y="25">React</text>
+      <rect class="pill" x="88" y="0" width="126" height="38" rx="8"/><text class="pillText" x="104" y="25">React Native</text>
+      <rect class="pill" x="226" y="0" width="60" height="38" rx="8"/><text class="pillText" x="243" y="25">Vite</text>
+      <rect class="pill" x="298" y="0" width="132" height="38" rx="8"/><text class="pillText" x="315" y="25">Tailwind CSS</text>
+    </g>
+
+    <line class="line" x1="0" y1="240" x2="557" y2="240"/>
+    <text class="microSmall" x="0" y="280">BACKEND</text>
+    <g transform="translate(0 296)">
+      <rect class="pill" x="0" y="0" width="91" height="38" rx="8"/><text class="pillText" x="18" y="25">Node.js</text>
+      <rect class="pill" x="104" y="0" width="93" height="38" rx="8"/><text class="pillText" x="121" y="25">Express</text>
+      <rect class="pill" x="210" y="0" width="89" height="38" rx="8"/><text class="pillText" x="228" y="25">FastAPI</text>
+      <rect class="pill" x="312" y="0" width="133" height="38" rx="8"/><text class="pillText" x="328" y="25">SQLAlchemy</text>
+      <rect class="pill" x="458" y="0" width="99" height="38" rx="8"/><text class="pillText" x="475" y="25">Postgres</text>
+    </g>
+
+    <line class="line" x1="0" y1="351" x2="557" y2="351"/>
+    <text class="microSmall" x="0" y="391">FOCUS</text>
+    <g transform="translate(0 407)">
+      <rect class="pill" x="0" y="0" width="90" height="38" rx="8"/><text class="pillText" x="17" y="25">LLMs</text>
+      <rect class="pill" x="102" y="0" width="101" height="38" rx="8"/><text class="pillText" x="118" y="25">AI Agents</text>
+      <rect class="pill" x="216" y="0" width="146" height="38" rx="8"/><text class="pillText" x="232" y="25">Model Evaluation</text>
+      <rect class="pill" x="375" y="0" width="136" height="38" rx="8"/><text class="pillText" x="391" y="25">System Design</text>
+    </g>
   </g>
 
-  <text class="small" x="24" y="528">Languages</text>
-  <g transform="translate(122 509)">
-    <rect class="pill" x="0" y="0" width="92" height="25" rx="12"/><text class="pillText" x="18" y="17">JavaScript</text>
-    <rect class="pill" x="104" y="0" width="94" height="25" rx="12"/><text class="pillText" x="122" y="17">TypeScript</text>
-    <rect class="pill" x="210" y="0" width="67" height="25" rx="12"/><text class="pillText" x="230" y="17">Python</text>
-    <rect class="pill" x="289" y="0" width="56" height="25" rx="12"/><text class="pillText" x="306" y="17">HTML</text>
-    <rect class="pill" x="357" y="0" width="46" height="25" rx="12"/><text class="pillText" x="373" y="17">CSS</text>
-  </g>
+  <line class="line" x1="65" y1="1112" x2="1239" y2="1112"/>
+  <text class="quoteMark" x="343" y="1148">&quot;</text>
+  <text class="quote" x="392" y="1148">Building useful interfaces, learning the systems underneath them.</text>
+  <text class="quoteMark" x="968" y="1148">&quot;</text>
 
-  <text class="small" x="24" y="562">Frontend</text>
-  <g transform="translate(122 543)">
-    <rect class="pill" x="0" y="0" width="67" height="25" rx="12"/><text class="pillText" x="18" y="17">React</text>
-    <rect class="pill" x="79" y="0" width="104" height="25" rx="12"/><text class="pillText" x="96" y="17">React Native</text>
-    <rect class="pill" x="195" y="0" width="46" height="25" rx="12"/><text class="pillText" x="209" y="17">Vite</text>
-    <rect class="pill" x="253" y="0" width="105" height="25" rx="12"/><text class="pillText" x="269" y="17">Tailwind CSS</text>
-    <rect class="pill" x="370" y="0" width="78" height="25" rx="12"/><text class="pillText" x="386" y="17">UI Systems</text>
-  </g>
+  <text class="footer" x="65" y="1196">Kingsley Afolabi Aremu</text>
+  <text class="footer" x="263" y="1196">.</text>
+  <text class="footer" x="288" y="1196">iice257</text>
+  <text class="footer" x="365" y="1196">.</text>
+  <text class="footer" x="390" y="1196">Lagos, NG</text>
 
-  <text class="small" x="24" y="596">Backend</text>
-  <g transform="translate(122 577)">
-    <rect class="pill" x="0" y="0" width="68" height="25" rx="12"/><text class="pillText" x="17" y="17">Node.js</text>
-    <rect class="pill" x="80" y="0" width="75" height="25" rx="12"/><text class="pillText" x="96" y="17">Express</text>
-    <rect class="pill" x="167" y="0" width="64" height="25" rx="12"/><text class="pillText" x="184" y="17">FastAPI</text>
-    <rect class="pill" x="243" y="0" width="88" height="25" rx="12"/><text class="pillText" x="257" y="17">SQLAlchemy</text>
-    <rect class="pill" x="343" y="0" width="76" height="25" rx="12"/><text class="pillText" x="356" y="17">Postgres</text>
-  </g>
-
-  <text class="small" x="24" y="630">Focus</text>
-  <g transform="translate(122 611)">
-    <rect class="pill" x="0" y="0" width="117" height="25" rx="12"/><text class="pillText" x="16" y="17">Product Thinking</text>
-    <rect class="pill" x="129" y="0" width="74" height="25" rx="12"/><text class="pillText" x="146" y="17">ML Study</text>
-    <rect class="pill" x="215" y="0" width="105" height="25" rx="12"/><text class="pillText" x="231" y="17">Deep Learning</text>
-    <rect class="pill" x="332" y="0" width="112" height="25" rx="12"/><text class="pillText" x="348" y="17">System Design</text>
-  </g>
-
-  <line class="line" x1="24" y1="659" x2="876" y2="659"/>
-
-  <g transform="translate(24 693)">
-    <circle cx="7" cy="6" r="4" class="iconStroke"/>
-    <circle cx="17" cy="6" r="4" class="iconStroke"/>
-    <path class="iconStroke" d="M1.5 19c.6-4 4-6 7.5-6M22.5 19c-.6-4-4-6-7.5-6"/>
-    <text class="section" x="28" y="14">LET'S CONNECT</text>
-  </g>
-  <g transform="translate(32 728)">
-    <circle cx="9" cy="-6" r="9" class="iconStroke"/>
-    <path class="iconStroke" d="M0 -6h18M9 -15c4 5 4 13 0 18M9 -15c-4 5-4 13 0 18"/>
-    <text class="body link" x="34" y="0">Portfolio</text>
-    <text x="232" y="0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#111827">X</text>
-    <text class="body link" x="262" y="0">Twitter / X</text>
-    <circle cx="474" cy="-6" r="10" fill="#111827"/>
-    <text x="466" y="-2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="9" font-weight="800" fill="#ffffff">GH</text>
-    <text class="body link" x="510" y="0">GitHub</text>
-    <rect x="704" y="-19" width="114" height="28" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
-    <circle cx="722" cy="-5" r="4" fill="#22c55e"/>
-    <text class="small" x="735" y="-1" fill="#111827">Open to roles</text>
-  </g>
-
-  <g transform="translate(24 748)">
-    <rect x="0" y="0" width="852" height="76" rx="8" fill="#f6f8fa"/>
-    <text x="20" y="42" font-family="Georgia, serif" font-size="32" font-weight="700" fill="#475569">&quot;</text>
-    <text class="body" x="58" y="35">Building useful interfaces, learning the systems underneath them.</text>
-    <text class="body" x="58" y="59">- Kingsley Aremu</text>
-  </g>
+  <text class="footer" x="982" y="1196">Portfolio</text>
+  <text class="footer" x="1065" y="1196">.</text>
+  <text class="footer" x="1087" y="1196">@iice257</text>
+  <text class="footer" x="1167" y="1196">.</text>
+  <text class="footer" x="1189" y="1196">GitHub</text>
 </svg>
