@@ -5,7 +5,7 @@
     Portfolio: https://kingsleyaremu.vercel.app
     Email: mailto:kingsley.aremu@gmail.com
     GitHub: https://github.com/iice257
-    X: https://x.com/iice257
+    X: https://x.com/Ice257_
     LinkedIn: https://linkedin.com/in/kingsley-aremu
   </metadata>
   <defs>
@@ -85,9 +85,8 @@
   <text class="heroTop" x="193" y="291">KINGSLEY</text>
   <text class="heroBottom" x="328" y="455">AREMU</text>
 
-  <text class="lede" x="428" y="508">Full-Stack Engineer crafting</text>
-  <text class="ledeStrong" x="706" y="508">AI-powered tools</text>
-  <text class="lede" x="401" y="542">with precision, performance, and intentional design.</text>
+  <text class="lede" x="643" y="508" text-anchor="middle">Full-stack and creative engineer building <tspan class="ledeStrong">polished web products,</tspan></text>
+  <text class="lede" x="643" y="542" text-anchor="middle">mobile apps, AI agent tooling and automation systems.</text>
   <text class="microSmall" x="492" y="594">BUILDING IN PUBLIC . LAGOS, NIGERIA</text>
 
   <g transform="translate(65 640)">
@@ -193,7 +192,7 @@
 
   <text class="footer" x="982" y="1196">Portfolio</text>
   <text class="footer" x="1065" y="1196">.</text>
-  <text class="footer" x="1087" y="1196">@iice257</text>
+  <text class="footer" x="1087" y="1196">@Ice257_</text>
   <text class="footer" x="1167" y="1196">.</text>
   <text class="footer" x="1189" y="1196">GitHub</text>
 </svg>
